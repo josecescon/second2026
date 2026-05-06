@@ -1,0 +1,14 @@
+.card{
+    width: 300px;
+    height: auto;
+    border: 10px whitesmoke;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+}
+.card img{
+    max-width: 600px;
+    max-height: 300px;
+}
+body{
+    background-color: grey;
+}

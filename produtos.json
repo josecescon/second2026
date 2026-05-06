@@ -1,0 +1,24 @@
+[
+    {
+        "imagem": "epic.jpeg",
+        "nome": "Gift card Epic Games",
+        "descricao": "Pode ser usado na loja da Epic Games",
+        "preco": "R$50,00",
+        "link": "www.google.com.br"
+    },
+    {
+        "imagem": "riot.jpeg",
+        "nome": "Gift card Riot Games",
+        "descricao": "Pode ser usado na loja da Riot Games",
+        "preco": "R$50,00",
+        "link": "www.google.com.br"
+    },
+    {
+        "imagem": "roblox.jpeg",
+        "nome": "Gift card Roblox",
+        "descricao": "Pode ser usado no Roblox",
+        "preco": "R$50,00",
+        "link": "www.google.com.br"
+    }
+
+]
