@@ -1,14 +1,154 @@
-.card{
-    width: 300px;
-    height: auto;
-    border: 10px whitesmoke;
-    background-color: rgb(34, 33, 33);
+body {
+    display: grid;
+    grid-template-areas:
+        "cabeca cabeca cabeca"
+        "braco corpo corpo"
+        "peh peh peh";
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 1fr 2.5fr 2.5fr;
+}
+
+header {
+    grid-area: cabeca;
+    background-color:rgb(27, 77, 66);
+}
+
+main {
+    grid-area: corpo;
+    background-color: rgb(51, 50, 50);
+}
+
+aside {
+    grid-area: braco;
+    background-color: rgb(30, 30, 30);
+}
+
+footer {
+    grid-area: peh;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: x-large;
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.mae {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letra {
+    font-size: xx-large;
     text-align: center;
 }
-.card img{
-    max-width: 600px;
-    max-height: 300px;
+
+.logoo{
+    height: auto;
+    width: 100px;
 }
-body{
-    background-color: grey;
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(46, 46, 47);
+    width: 450px;
+    height: 650px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.produto {
+    width: 300px;
+    height: 300px;
+}
+
+.nome {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.descricao {
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.preco {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+.botao {
+    font-size: xx-large;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.letra_botao {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "cabeca"
+            "braco"
+            "corpo"
+            "peh";
+        grid-template-rows: 100px 130px auto 100px;
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "cabeca"
+            "corpo"
+            "peh";
+        grid-template-rows: 100px auto 100px;
+        grid-template-columns: auto;
+    }
+
+    aside {
+        display: none;
+    }
+}
+.aura{
+    background-color: rgb(59, 59, 59);
+    margin: 5%;
+    height: 3750px;
+    text-align: center;
+}
+.H_botao {
+    font-size: xx-large;
+    background-color: rgb(139, 21, 21);
+    width: 200px;
+    color: inherit;
+    text-decoration: none;
+        border-radius: 50px
 }

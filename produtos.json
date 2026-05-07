@@ -19,6 +19,12 @@
         "descricao": "Pode ser usado no Roblox",
         "preco": "R$50,00",
         "link": "www.google.com.br"
+    },
+    {
+        "imagem":"steam.webp",
+        "nome":"Gift card steam",
+        "descricao": "Pode ser usado na loja da steam",
+        "preco":"R$50,00",
+        "link":"www.google.com.br"
     }
-
 ]
